@@ -1,4 +1,4 @@
-# Symfony VOX API 
+# Symfony API Boilerplate
 
 Esta api simula um pequeno sistema para cadastro e gerenciamento de empresas e seus quadro societários.
 ## Para rodar o projeto
@@ -19,7 +19,7 @@ certifique-se de que as portas configuradas no docker-compose desse projeto não
 
 ## Sobre a estrutura
 
-Como o pedido foi especifico para criar a API em symfony, tentei aplicar o máximo possível os recursos do framework em detrimento
+API em symfony,  aplicado o máximo possível dos recursos do framework em detrimento
 de abordagens desacopladas.<br>
 
 Adicionado à migration um usuário admin que tem autorização para criar outros usuários, pois tem o ROLE_ADMIN nele que é o ROLE necessário para acessar a rota de registro.  <br>
@@ -31,11 +31,11 @@ Adicionado relacionamento many to many bi-direcional nas entidades company e par
 
 ### Documentação dos endpoints
 
-Bom, troquei alguns socos com as dependencias do swagger e devido às demandas do dia não pude dedicar-me a vencer-lhe os erros de configuração das dependencias.
+Bom, troquei alguns socos com as dependencias do swagger então fica o TODO aqui.
 
-então estou enviando para o repositório junto com o projeto, em sua pasta raiz a coleção do insomnia com todos os endpoints 
+na raiz do projeto tem a coleção do insomnia com todos os endpoints 
 criados. Basta importar no insomnia ou no postman ou qualquer outro api client de sua preferencia e tudo estará lá! 
-nome do arquivo: insomnia_vox_collection.json
+nome do arquivo: insomnia_collection.json
 
 
 ### Tecnologias
